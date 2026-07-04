@@ -1,0 +1,113 @@
+VCD info: dumpfile sim.vcd opened for output.
+=======================================================
+ top_mlp_engine self-checking testbench
+=======================================================
+PASS: weights initialized to nonzero deterministic values
+=======================================================
+ 2000 training steps
+=======================================================
+Step 0/2000 Pattern=01011011 Label=01 MSE=0.257432
+Step 50/2000 Pattern=00001001 Label=10 MSE=0.285750
+Step 100/2000 Pattern=11110110 Label=01 MSE=0.202901
+Step 150/2000 Pattern=10011100 Label=01 MSE=0.191625
+Step 200/2000 Pattern=00110001 Label=10 MSE=0.358820
+Step 250/2000 Pattern=10010011 Label=01 MSE=0.168641
+Step 300/2000 Pattern=10011100 Label=01 MSE=0.169246
+Step 350/2000 Pattern=01010110 Label=01 MSE=0.138572
+Step 400/2000 Pattern=11001111 Label=01 MSE=0.137445
+Step 450/2000 Pattern=00000101 Label=10 MSE=0.428777
+Step 500/2000 Pattern=01000010 Label=10 MSE=0.386983
+Step 550/2000 Pattern=01100000 Label=10 MSE=0.408304
+Step 600/2000 Pattern=01000101 Label=10 MSE=0.488256
+Step 650/2000 Pattern=10111111 Label=01 MSE=0.150408
+Step 700/2000 Pattern=11001000 Label=10 MSE=0.377913
+Step 750/2000 Pattern=00001010 Label=10 MSE=0.369445
+Step 800/2000 Pattern=00110011 Label=01 MSE=0.149647
+Step 850/2000 Pattern=01110001 Label=01 MSE=0.092194
+Step 900/2000 Pattern=10101110 Label=01 MSE=0.157047
+Step 950/2000 Pattern=11110100 Label=01 MSE=0.105673
+Step 1000/2000 Pattern=01011001 Label=01 MSE=0.083704
+Step 1050/2000 Pattern=11001011 Label=01 MSE=0.127491
+Step 1100/2000 Pattern=00100100 Label=10 MSE=0.412752
+Step 1150/2000 Pattern=01111110 Label=01 MSE=0.106350
+Step 1200/2000 Pattern=01100111 Label=01 MSE=0.067809
+Step 1250/2000 Pattern=00101101 Label=01 MSE=0.108167
+Step 1300/2000 Pattern=11011010 Label=01 MSE=0.146567
+Step 1350/2000 Pattern=00011000 Label=10 MSE=0.369407
+Step 1400/2000 Pattern=00101101 Label=01 MSE=0.108669
+Step 1450/2000 Pattern=11010111 Label=01 MSE=0.067247
+Step 1500/2000 Pattern=10110000 Label=10 MSE=0.359242
+Step 1550/2000 Pattern=10010010 Label=10 MSE=0.320686
+Step 1600/2000 Pattern=00001011 Label=10 MSE=0.355598
+Step 1650/2000 Pattern=11011001 Label=01 MSE=0.083450
+Step 1700/2000 Pattern=10000110 Label=10 MSE=0.329167
+Step 1750/2000 Pattern=01001100 Label=10 MSE=0.495907
+Step 1800/2000 Pattern=00000001 Label=10 MSE=0.385235
+Step 1850/2000 Pattern=10100011 Label=01 MSE=0.167180
+Step 1900/2000 Pattern=01001100 Label=10 MSE=0.472431
+Step 1950/2000 Pattern=00100110 Label=10 MSE=0.351145
+-------------------------------------------------------
+ Training results
+ First MSE: 0.257432
+ Last  MSE: 0.068619
+ Training improved the loss.
+-------------------------------------------------------
+PASS: W1[0][0] updated by online training (no longer initial value)
+PASS: BTN2 reinit restored deterministic initial weights
+-------------------------------------------------------
+ 50 inference samples completed
+-------------------------------------------------------
+infer 0: pattern=00000000 label=00 y0=0.500000 y1=0.500000 predicted=1
+infer 1: pattern=00000001 label=01 y0=0.500000 y1=0.511475 predicted=0
+infer 2: pattern=00000010 label=10 y0=0.500000 y1=0.500000 predicted=1
+infer 3: pattern=00000011 label=11 y0=0.500000 y1=0.500244 predicted=0
+infer 4: pattern=00000100 label=00 y0=0.500000 y1=0.505615 predicted=0
+infer 5: pattern=00000101 label=01 y0=0.500244 y1=0.517334 predicted=0
+infer 6: pattern=00000110 label=10 y0=0.500000 y1=0.500000 predicted=1
+infer 7: pattern=00000111 label=11 y0=0.500000 y1=0.505615 predicted=0
+infer 8: pattern=00001000 label=00 y0=0.500000 y1=0.500000 predicted=1
+infer 9: pattern=00001001 label=01 y0=0.500000 y1=0.505615 predicted=0
+infer 10: pattern=00001010 label=10 y0=0.500000 y1=0.500000 predicted=1
+infer 11: pattern=00001011 label=11 y0=0.500000 y1=0.500000 predicted=1
+infer 12: pattern=00001100 label=00 y0=0.500000 y1=0.500000 predicted=1
+infer 13: pattern=00001101 label=01 y0=0.500000 y1=0.511475 predicted=0
+infer 14: pattern=00001110 label=10 y0=0.500000 y1=0.500000 predicted=1
+infer 15: pattern=00001111 label=11 y0=0.500000 y1=0.500000 predicted=1
+infer 16: pattern=00010000 label=00 y0=0.500000 y1=0.502686 predicted=0
+infer 17: pattern=00010001 label=01 y0=0.500244 y1=0.514404 predicted=0
+infer 18: pattern=00010010 label=10 y0=0.500000 y1=0.500000 predicted=1
+infer 19: pattern=00010011 label=11 y0=0.500000 y1=0.502686 predicted=0
+infer 20: pattern=00010100 label=00 y0=0.500000 y1=0.508545 predicted=0
+infer 21: pattern=00010101 label=01 y0=0.500244 y1=0.520264 predicted=0
+infer 22: pattern=00010110 label=10 y0=0.500000 y1=0.500000 predicted=1
+infer 23: pattern=00010111 label=11 y0=0.500000 y1=0.508545 predicted=0
+infer 24: pattern=00011000 label=00 y0=0.500000 y1=0.500000 predicted=1
+infer 25: pattern=00011001 label=01 y0=0.500000 y1=0.508545 predicted=0
+infer 26: pattern=00011010 label=10 y0=0.500000 y1=0.500000 predicted=1
+infer 27: pattern=00011011 label=11 y0=0.500000 y1=0.500000 predicted=1
+infer 28: pattern=00011100 label=00 y0=0.500000 y1=0.502686 predicted=0
+infer 29: pattern=00011101 label=01 y0=0.500244 y1=0.514404 predicted=0
+infer 30: pattern=00011110 label=10 y0=0.500000 y1=0.500000 predicted=1
+infer 31: pattern=00011111 label=11 y0=0.500000 y1=0.502686 predicted=0
+infer 32: pattern=00100000 label=00 y0=0.500000 y1=0.500000 predicted=1
+infer 33: pattern=00100001 label=01 y0=0.500000 y1=0.508545 predicted=0
+infer 34: pattern=00100010 label=10 y0=0.500000 y1=0.500000 predicted=1
+infer 35: pattern=00100011 label=11 y0=0.500000 y1=0.500000 predicted=1
+infer 36: pattern=00100100 label=00 y0=0.500000 y1=0.502686 predicted=0
+infer 37: pattern=00100101 label=01 y0=0.500244 y1=0.514404 predicted=0
+infer 38: pattern=00100110 label=10 y0=0.500000 y1=0.500000 predicted=1
+infer 39: pattern=00100111 label=11 y0=0.500000 y1=0.502686 predicted=0
+infer 40: pattern=00101000 label=00 y0=0.500000 y1=0.500000 predicted=1
+infer 41: pattern=00101001 label=01 y0=0.500000 y1=0.502686 predicted=0
+infer 42: pattern=00101010 label=10 y0=0.500000 y1=0.500000 predicted=1
+infer 43: pattern=00101011 label=11 y0=0.500000 y1=0.500000 predicted=1
+infer 44: pattern=00101100 label=00 y0=0.500000 y1=0.500000 predicted=1
+infer 45: pattern=00101101 label=01 y0=0.500000 y1=0.508545 predicted=0
+infer 46: pattern=00101110 label=10 y0=0.500000 y1=0.500000 predicted=1
+infer 47: pattern=00101111 label=11 y0=0.500000 y1=0.500000 predicted=1
+infer 48: pattern=00110000 label=00 y0=0.500000 y1=0.500000 predicted=1
+infer 49: pattern=00110001 label=01 y0=0.500000 y1=0.511475 predicted=0
+=======================================================
+ Testbench complete
+=======================================================
+tb_top_mlp_engine.v:232: $finish called at 4652895000 (1ps)
